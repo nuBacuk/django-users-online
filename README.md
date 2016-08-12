@@ -1,5 +1,7 @@
 # django_user_online
 
+<img src="https://habrastorage.org/files/e76/a99/fd2/e76a99fd274e4b5dbba2783e077bfa64.png"/>
+
 Функция для django, чтобы смотреть кто из пользователей онлайн. Сохраняется в кэш.
 
 Добавляем настройки в **settings.py**
@@ -35,5 +37,3 @@ urlpatterns = patterns('',
     url(r'^$', 'views.home', name='Главная'),
 	url(r'^online/$', usersonline),
 ```
-
-<img src="https://habrastorage.org/files/e76/a99/fd2/e76a99fd274e4b5dbba2783e077bfa64.png"/>
