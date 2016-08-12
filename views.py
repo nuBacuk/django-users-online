@@ -12,7 +12,7 @@ def usersonline(request):
 	for item in users:
 		if cache.get('seen_%s' % item.username):
 			now = datetime.datetime.now()
-			if now > cache.get('seen_%s' % item.username) + datetime.timedelta(minutes=15):
+			if now > cache.get('seen_%s' % item.username) + datetime.timedelta(minutes=5):
 				pass
 			else:
 				i = [count, item,item.username, cache.get('ip_%s' % item.username)]
