@@ -36,4 +36,4 @@ urlpatterns = patterns('',
 	url(r'^online/$', usersonline),
 ```
 
-<img src="https://habrastorage.org/files/280/391/f2a/280391f2ab2c481c86ca35b1fc78e263.png"/>
+<img src="https://habrastorage.org/files/e76/a99/fd2/e76a99fd274e4b5dbba2783e077bfa64.png"/>
